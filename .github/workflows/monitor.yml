@@ -1,0 +1,61 @@
+name: Surveillance Midea PortaSplit
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Vérification toutes les 15 minutes.
+    - cron: "3,18,33,48 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portasplit-stock-monitor
+  cancel-in-progress: false
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Vérifier les stocks et envoyer les alertes
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          SMTP_SSL: ${{ secrets.SMTP_SSL }}
+          BOOTSTRAP_SILENT: "true"
+          PAGE_TIMEOUT_MS: "45000"
+          RENDER_WAIT_MS: "5000"
+        run: python portasplit_monitor.py
+
+      - name: Mémoriser le nouvel état
+        run: |
+          if git diff --quiet -- state.json; then
+            echo "Aucun changement d'état."
+            exit 0
+          fi
+          git config user.name "PortaSplit Stock Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git commit -m "Mise à jour de l'état du stock PortaSplit"
+          git push
