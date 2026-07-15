@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Leroy Merlin",
+    "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html",
+    "enabled": true,
+    "identity_terms": [
+      "PortaSplit",
+      "93857579",
+      "MMCS-12HRN8-QRD0",
+      "8431312260509"
+    ],
+    "positive_phrases": [
+      "Ajouter au panier",
+      "Livraison à domicile",
+      "Retrait en magasin",
+      "Disponible en magasin"
+    ],
+    "minimum_positive_matches": 2,
+    "negative_phrases": [
+      "Ce produit n'est pas disponible",
+      "Produit indisponible",
+      "Indisponible à la livraison",
+      "Indisponible en magasin",
+      "Rupture de stock",
+      "Victime de son succès"
+    ],
+    "preorder_phrases": [
+      "Précommande",
+      "Disponible à partir du",
+      "Livraison à partir du"
+    ]
+  },
+  {
+    "name": "Boulanger",
+    "url": "https://www.boulanger.com/c/climatiseur/brand~midea/facettes_clim_mobile_____fonctions~climatiseur20re9versible2028chauffage29",
+    "enabled": true,
+    "identity_terms": [
+      "MIDEA portasplit mobile",
+      "PortaSplit",
+      "MMCS-12HRN8-QRD0"
+    ],
+    "product_text_patterns": [
+      "MIDEA\\s+portasplit\\s+mobile",
+      "PortaSplit"
+    ],
+    "positive_phrases": [
+      "Ajouter au panier",
+      "Livraison disponible",
+      "Retrait 1h",
+      "Retrait disponible"
+    ],
+    "minimum_positive_matches": 1,
+    "negative_phrases": [
+      "indisponible",
+      "Livraison indisponible",
+      "Retrait indisponible",
+      "0 article",
+      "Aucun résultat"
+    ],
+    "preorder_phrases": [
+      "Précommande",
+      "Bientôt disponible",
+      "Disponible à partir du"
+    ]
+  },
+  {
+    "name": "Darty",
+    "url": "https://www.darty.com/nav/achat/gros_electromenager/climatisation-climatiseur/climatiseur/marque__midea__MDEA.html",
+    "enabled": true,
+    "identity_terms": [
+      "Midea MMCS-12HRN8-QRD0",
+      "PortaSplit",
+      "MMCS-12HRN8-QRD0"
+    ],
+    "product_text_patterns": [
+      "MMCS-12HRN8-QRD0",
+      "PortaSplit"
+    ],
+    "positive_phrases": [
+      "Ajouter au panier",
+      "Livraison disponible",
+      "Retrait gratuit en magasin",
+      "Livré dès le"
+    ],
+    "minimum_positive_matches": 1,
+    "negative_phrases": [
+      "Produit indisponible",
+      "Livraison indisponible",
+      "0 produit trouvé",
+      "On n'a rien trouvé",
+      "Il n'y a pas de modèle"
+    ],
+    "preorder_phrases": [
+      "Précommande",
+      "Bientôt disponible",
+      "Disponible à partir du"
+    ]
+  },
+  {
+    "name": "ManoMano",
+    "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402",
+    "enabled": true,
+    "identity_terms": [
+      "MIDEA PORTASPLIT",
+      "83810402",
+      "MMCS-12HRN8-QRD0"
+    ],
+    "positive_phrases": [
+      "Ajouter au panier",
+      "En stock",
+      "Livraison gratuite"
+    ],
+    "minimum_positive_matches": 2,
+    "negative_phrases": [
+      "Produit épuisé",
+      "Rupture de stock",
+      "Indisponible"
+    ],
+    "preorder_phrases": [
+      "Précommande",
+      "Disponible à partir du"
+    ]
+  },
+  {
+    "name": "Optimea",
+    "url": "https://www.optimea.fr/product/climatiseur-split-mobile-midea/",
+    "enabled": true,
+    "identity_terms": [
+      "MMCS-12HRN8-QRD0",
+      "8431312260509",
+      "PortaSplit"
+    ],
+    "positive_phrases": [
+      "Ajouter au panier",
+      "En stock",
+      "Livraison gratuite"
+    ],
+    "minimum_positive_matches": 2,
+    "negative_phrases": [
+      "Rupture de stock",
+      "Indisponible"
+    ],
+    "preorder_phrases": [
+      "Précommande",
+      "Disponible à partir du",
+      "Livraison à partir du"
+    ]
+  }
+]
