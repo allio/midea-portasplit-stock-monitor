@@ -1,15 +1,15 @@
 {
   "Boulanger": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.4ba42617.1786062875.2128fc2 https://errors.edgesuite.net/9.4ba42617.1786062875.2128fc2",
-    "signature": "81d11af8cb668755f1dc",
+    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.47a42617.1786074067.83967b53 https://errors.edgesuite.net/9.47a42617.1786074067.83967b53",
+    "signature": "d8d4af2b898ca1b70274",
     "status": "unknown",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea/facettes_clim_mobile_____fonctions~climatiseur20re9versible2028chauffage29"
   },
   "Darty": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "Malheureusement notre site n'est actuellement pas disponible.",
-    "signature": "2b767ee3e9fb5fd7e27b",
+    "excerpt": "",
+    "signature": "129e6ddfdfc1b91a4f15",
     "status": "unknown",
     "url": "https://www.darty.com/nav/achat/gros_electromenager/climatisation-climatiseur/climatiseur/marque__midea__MDEA.html"
   },
@@ -22,8 +22,8 @@
   },
   "ManoMano": {
     "detail": "État non déterminé automatiquement",
-    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a27232f73e423f2a Performances et sécurité par Cloudflare Confidentialité",
-    "signature": "c1fbf6f4bba993e5050b",
+    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a2734430b871710b Performances et sécurité par Cloudflare Confidentialité",
+    "signature": "772ca59b785397d4765a",
     "status": "unknown",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
