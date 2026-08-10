@@ -1,8 +1,8 @@
 {
   "Boulanger": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.50a7cb17.1786355011.1e65a5d https://errors.edgesuite.net/9.50a7cb17.1786355011.1e65a5d",
-    "signature": "0abf5bc63dd91258fe9a",
+    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.68c83017.1786359054.2722c975 https://errors.edgesuite.net/9.68c83017.1786359054.2722c975",
+    "signature": "bc1c0b7b8e7da03fc778",
     "status": "unknown",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea/facettes_clim_mobile_____fonctions~climatiseur20re9versible2028chauffage29"
   },
@@ -22,8 +22,8 @@
   },
   "ManoMano": {
     "detail": "État non déterminé automatiquement",
-    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a28e0f2d3ecd15ba Performances et sécurité par Cloudflare Confidentialité",
-    "signature": "7a6a551284080920122f",
+    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a28e71dfacb3147c Performances et sécurité par Cloudflare Confidentialité",
+    "signature": "39642149510433f4759a",
     "status": "unknown",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
