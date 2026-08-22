@@ -1,8 +1,8 @@
 {
   "Boulanger": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.8b94d817.1787366624.28ea3229 https://errors.edgesuite.net/9.8b94d817.1787366624.28ea3229",
-    "signature": "5e93199b6abfc528705a",
+    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.45182117.1787369318.95583508 https://errors.edgesuite.net/9.45182117.1787369318.95583508",
+    "signature": "16a12ed2286e41774061",
     "status": "unknown",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea/facettes_clim_mobile_____fonctions~climatiseur20re9versible2028chauffage29"
   },
@@ -14,16 +14,16 @@
     "url": "https://www.darty.com/nav/achat/gros_electromenager/climatisation-climatiseur/climatiseur/marque__midea__MDEA.html"
   },
   "Leroy Merlin": {
-    "detail": "État non déterminé automatiquement",
-    "excerpt": "",
-    "signature": "15b60aa1292d128edf5d",
+    "detail": "Le produit exact n'a pas été retrouvé sur cette page",
+    "excerpt": "Error 403 Forbidden Forbidden Error 54113 Details: cache-yyz4566-YYZ 1787369313 2490017448 Varnish cache server",
+    "signature": "5cafb2b2de53e0974dcf",
     "status": "unknown",
     "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html"
   },
   "ManoMano": {
     "detail": "État non déterminé automatiquement",
-    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a2ee88be3b3d760e Performances et sécurité par Cloudflare Confidentialité",
-    "signature": "f73875f776a9734b2323",
+    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a2eeca87ed8caaee Performances et sécurité par Cloudflare Confidentialité",
+    "signature": "67dc2eccbe5418dbc694",
     "status": "unknown",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
