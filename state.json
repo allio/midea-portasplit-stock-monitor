@@ -1,8 +1,8 @@
 {
   "Boulanger": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.50a7cb17.1787504808.51fcad9 https://errors.edgesuite.net/9.50a7cb17.1787504808.51fcad9",
-    "signature": "60c33c41c6bd6500f8cb",
+    "excerpt": "Invalid URL The requested URL \"[no URL]\", is invalid. Reference #9.d4df3517.1787506770.602a8557 https://errors.edgesuite.net/9.d4df3517.1787506770.602a8557",
+    "signature": "1e46a061e872c45d0da8",
     "status": "unknown",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea/facettes_clim_mobile_____fonctions~climatiseur20re9versible2028chauffage29"
   },
@@ -22,15 +22,15 @@
   },
   "ManoMano": {
     "detail": "État non déterminé automatiquement",
-    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a2fbb661ba0564b6 Performances et sécurité par Cloudflare Confidentialité",
-    "signature": "dc4650c6476f5287255e",
+    "excerpt": "www.manomano.fr Vérification de sécurité en cours Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot. Ray ID: a2fbe6495df9df5d Performances et sécurité par Cloudflare Confidentialité",
+    "signature": "ff01613f4a29932e73d5",
     "status": "unknown",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
   "Optimea": {
     "detail": "Le produit exact n'a pas été retrouvé sur cette page",
-    "excerpt": "",
-    "signature": "129e6ddfdfc1b91a4f15",
+    "excerpt": "403 Forbidden Request forbidden by administrative rules.",
+    "signature": "90923bf498a54a500537",
     "status": "unknown",
     "url": "https://www.optimea.fr/product/climatiseur-split-mobile-midea/"
   }
